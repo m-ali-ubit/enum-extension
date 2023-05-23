@@ -130,12 +130,12 @@ class StringEnum(Enum):
             return merged_class(merged_value)
         raise InvalidTypeException("StringEnum", type(other))
 
-    def __and__(self, other: Optional[Union[str, Type["StringEnum"]]]) -> bool:
+    def __and__(self, other: Optional[Union[str, "StringEnum"]]) -> bool:
         """
         Performs a bitwise 'and' operation between the enumeration member and another value.
 
         Parameters:
-        - other (Optional[Union[str, Type['StringEnum']]]): The value to perform the 'and' operation with.
+        - other (Optional[Union[str, "StringEnum"]]): The value to perform the 'and' operation with.
 
         Returns:
         - result (bool): The result of the 'and' operation.
