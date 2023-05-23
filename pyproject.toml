@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enum-extension"
+version = "1.0.0"
+authors = [
+  { name="MuhammadAli", email="usermalikhan@gmail.com" },
+]
+description = """Python library that extends the functionality of the built-in enum module,
+offering an array of additional features and utilities to simplify enumeration handling
+and expand its capabilities."""
+readme = "README.md"
+license = "MIT License"
+requires-python = ">=3.6"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+]
