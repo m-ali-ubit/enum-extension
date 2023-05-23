@@ -12,7 +12,7 @@ description = """Python library that extends the functionality of the built-in e
 offering an array of additional features and utilities to simplify enumeration handling
 and expand its capabilities."""
 readme = "README.md"
-license = "MIT License"
+license = { file="LICENSE" }
 requires-python = ">=3.6"
 dependencies = []
 classifiers = [
