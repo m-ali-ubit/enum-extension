@@ -11,8 +11,6 @@ authors = [
 description = """Python library that extends the functionality of the built-in enum module,
 offering an array of additional features and utilities to simplify enumeration handling
 and expand its capabilities."""
-repository = "https://github.com/m-ali-ubit/enum-extension"
-homepage = "https://github.com/m-ali-ubit/enum-extension"
 keywords = ["enum", "extension", "python", "enhancements", "utilities", "advanced", "capabilities"]
 readme = "README.md"
 license = { file="LICENSE" }
@@ -29,3 +27,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "License :: OSI Approved :: MIT License",
 ]
+
+[project.urls]
+repository = "https://github.com/m-ali-ubit/enum-extension"
+homepage = "https://github.com/m-ali-ubit/enum-extension"
